@@ -34,5 +34,5 @@ function recursionFibonacci(n){
 
     return recursionFibonacci(n-1) + recursionFibonacci(n-2)
 }
-
+// time complexity - O(2^n)
 console.log(recursionFibonacci(7))
