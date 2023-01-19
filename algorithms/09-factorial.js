@@ -11,7 +11,7 @@ function factorials(n){
     }
     return result;
 }
-// time complexity O(2^n);
+// time complexity O(n);
 console.log(factorials(4))
 
 
@@ -23,5 +23,5 @@ function recursiveFact(n){
     return n* recursiveFact(n-1); // n! = n * (n - 1)
 }
 
-// time complexity O(n)
+// time complexity O(2^n)
 console.log(recursiveFact(4))
