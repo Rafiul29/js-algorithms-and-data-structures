@@ -11,7 +11,7 @@ class Queue{
     peek(){
       return this.items[0]
     }
-    isEmty(){
+    isEmpty(){
       return this.items.length==0
     }
     size(){
@@ -29,6 +29,6 @@ class Queue{
   queue.enqueue(5)
   queue.enqueue(6)
   console.log(queue.dequeue())
-  console.log(queue.isEmty())
+  console.log(queue.isEmpty())
   queue.size()
   queue.print()

@@ -12,7 +12,7 @@ class Stack{
     peek(){
       return this.items[this.items.length-1]
     }
-  isEmty(){
+  isEmpty(){
     console.log(this.items.length===0) 
   }
     size(){
@@ -32,5 +32,5 @@ class Stack{
   console.log(stack.pop())
   stack.print()
   console.log(stack.peek())
-  stack.isEmty()
+  stack.isEmpty()
   console.log(stack.size())
